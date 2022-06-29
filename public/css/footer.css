@@ -1,0 +1,13 @@
+footer{
+    text-align: center;
+}
+
+.home footer ul li{ /* encuadre */
+    background-color: var(--colorRojo);
+    padding: 12px;
+    margin: 2px 0;
+}
+.home footer ul li a{ /* letras */
+    color: var(--colorBlanco);
+    text-transform: uppercase;
+}

@@ -1,0 +1,29 @@
+.home header{
+    text-align: center;
+}
+.home header .logo{ 
+    padding: 20px 0 40px;
+}
+.home header .logo img{ /* logo */
+    border-radius: 50%;
+
+}
+.home header button{ /* boton hamburguesa */
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    color: var(--colorRojo);
+    border-radius: 25%;
+    border: solid 1px var(--colorGris);
+
+}
+.home header ul li{ /* encuadre */
+    background-color: var(--colorGris);
+    padding: 12px;
+    margin: 2px 0;
+}
+.home header ul li a{ /* letras */
+    color: var(--colorBlanco);
+    text-transform: uppercase;
+}
